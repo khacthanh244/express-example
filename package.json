@@ -1,0 +1,21 @@
+{
+  "name": "express-ex",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node_modules/nodemon/bin/nodemon.js ./bin/www"
+  },
+  "dependencies": {
+    "body-parser": "~1.17.1",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.3",
+    "elasticsearch": "^14.2.2",
+    "express": "~4.15.2",
+    "ioredis": "^3.2.2",
+    "jade": "~1.11.0",
+    "mongoose": "^5.0.11",
+    "morgan": "~1.8.1",
+    "nodemon": "^1.17.2",
+    "serve-favicon": "~2.4.2"
+  }
+}
